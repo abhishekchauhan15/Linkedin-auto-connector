@@ -1,4 +1,4 @@
-#Linkedin-Auto_Connector 
+# Linkedin-Auto_Connector 
 
 This is a auto connect linkedin bot wich connects the all the people on the first page of a particular company when give the name of that company 
 
@@ -10,9 +10,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Install selenium. I used `pip` to install the selenium package.
 
-```pip install selenium
-   pip install webdriver_manager
-   pip install tinydb 
+``` bash
+pip install selenium
+pip install webdriver_manager
+pip install tinydb 
    ```
 
 2. Selenium requires a driver to interface with the chosen browser. Make sure the driver is in your path, you will need to add your `driver_path` to the `config.json` file.
